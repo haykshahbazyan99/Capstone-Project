@@ -6,13 +6,13 @@ Execution: For running the program...
 Go to "BinPacking" class in the soucre folder and run the main method. The output is going to be in a simple text file. 
 This is done for testing and visualising the output via Phthon script.
 
-Moreover. There are already 5 special cases for this program written in that same class. If you want test your own case, make a subclass and import the data with the same shablon as prepared subclasses: that is create and detemine bin dimensions like the following 
+Moreover. There are already 5 special test cases written for this program in that same class. If you want test your own case, make a subclass and import the data with the same shablon as prepared subclasses: that is create and detemine bin dimensions like the following 
 
        bin.setSide1(new Side(220, Side.Orientation.WIDTH));
        bin.setSide2(new Side(160, Side.Orientation.HEIGHT));
        bin.setSide3(new Side(100, Side.Orientation.LENGTH));
 
-then fix number of item/boxes you want to pack, then fix the dimensions and traverse through it. 
+then fix number of item/boxes you want to pack, then fix the dimensions and traverse through it.
 
 The following method will run the program
 
